@@ -10,4 +10,58 @@ body {
   justify-content: center;
   align-items: center;
 }
+.container{
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.container h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.container form input{
+  padding: 10px;
+  margin-bottom: 10px;
+  border :none;
+  width: 100%;  
+}
+#input:focus{
+  outline: none;
+}
+.line{
+  height: 1px;
+  background-color: lightgray;
+  margin: 10px 0;
+}
+.list{
+  list-style: none;
+}
+.clear{
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+  color: rgb(125, 121, 121);
+}
+.heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading h2{
+  font-size: 20px;
+}
+.heading i{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: rgb(125, 121, 121);
+}
 
