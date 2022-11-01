@@ -64,4 +64,17 @@ body {
   cursor: pointer;
   color: rgb(125, 121, 121);
 }
+.task-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  height: 50px;
+  border-bottom: 1px solid lightgray;
+}
+.task-description{
+  font-size: 18px;  
+}
+
+
 
