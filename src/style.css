@@ -88,8 +88,17 @@ body {
 
 .task-description {
   font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  width: 100%;
+}
+
+.task-description:focus {
+  outline: 1px solid lightgray;
 }
 
 .hide{
   display: none;
 }
+
