@@ -89,3 +89,7 @@ body {
 .task-description {
   font-size: 18px;
 }
+
+.hide{
+  display: none;
+}

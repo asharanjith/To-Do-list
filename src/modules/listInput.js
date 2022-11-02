@@ -5,6 +5,7 @@ const listInputLine = (task) => {
   listElement.innerHTML = `
     <p class="task-description"><input type="checkbox" class="task-check">${task.description}</p>    
     <i class="bi bi-three-dots-vertical"></i>
+    <i class="bi bi-trash hide"></i>
     `;
   listView.appendChild(listElement);
 };
