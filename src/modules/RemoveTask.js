@@ -21,6 +21,7 @@ trashBtn.forEach((btn) => {
     const index = Array.from(trashBtn).indexOf(btn);
     const newList = list.filter((task) => task.index !== index + 1);
     updateIndex(newList);
+    window.location.reload();
     localStorage.setItem('localListStorage', JSON.stringify(newList));
     btn.parentElement.remove();
   });
