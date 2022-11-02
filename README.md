@@ -22,7 +22,7 @@ In this project, a simple to-do list is created using webpack.
 
 - GitHub: [@asharanjith](https://github.com/asharanjith)
 - Twitter: [@asha_cep](https://twitter.com/asha_cep)
-- LinkedIn: [asha-vijayan](https://www.linkedin.com/in/asha-vijayan-67179a18)
+- LinkedIn: [asha-vijayan](www.linkedin.com/in/ashavijayan)
 
 ## 🤝 Contributing
 
