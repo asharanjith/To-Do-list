@@ -26,3 +26,12 @@ clearall.addEventListener('click', () => {
   localStorage.setItem('localListStorage', JSON.stringify(newList));
   window.location.reload();
 });
+
+checkbox.forEach((check) => {
+  const list = JSON.parse(localStorage.getItem('localListStorage'));
+  const index = Array.from(checkbox).indexOf(check);
+  if (list[index].completed) {
+    check.checked = true;
+    taskDescription[index].classList.add('completed');
+  }
+});
