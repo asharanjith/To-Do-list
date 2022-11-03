@@ -96,8 +96,14 @@ body {
 
 .task-description:focus {
   outline: 1px solid lightgray;
+  background: lightgrey;
 }
 
 .hide {
   display: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgb(125, 121, 121);
 }
