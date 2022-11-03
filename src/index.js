@@ -1,24 +1,6 @@
 import './style.css';
-import listInput from './modules/listInput.js';
-
-const listView = document.querySelector('.list');
-
-const Tasks = [
-  {
-    index: 1,
-    description: 'Buy newspaper',
-    completed: false,
-  },
-  {
-    index: 2,
-    description: 'Buy milk',
-    completed: false,
-  },
-  {
-    index: 3,
-    description: 'Buy eggs',
-    completed: false,
-  },
-];
-
-listInput(listView, Tasks);
+import { } from './modules/TaskLine.js';
+import { } from './modules/AddTask.js';
+import { } from './modules/listInput.js';
+import { } from './modules/localstorage.js';
+import { } from './modules/RemoveTask.js';
