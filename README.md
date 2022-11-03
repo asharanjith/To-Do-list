@@ -2,6 +2,9 @@
 
 In this project, a simple to-do list is created using webpack.
 
+##Live Demo
+[Click here](https://asharanjith.github.io/To-Do-list/dist/)
+
 ##- Major languages: 
 - HTML
 - CSS
