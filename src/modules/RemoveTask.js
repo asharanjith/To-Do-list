@@ -38,3 +38,5 @@ updateTaskDescription.forEach((input) => {
     }
   });
 });
+
+export default updateIndex;
