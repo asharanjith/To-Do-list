@@ -1,7 +1,7 @@
 import updateIndex from './RemoveTask.js';
 
 const checkbox = document.querySelectorAll('.task-check');
-const taskDescription = document.querySelectorAll('.task-description');
+const taskDescription = document.querySelectorAll('.task-text');
 const clearall = document.querySelector('.clear');
 
 checkbox.forEach((check) => {

@@ -86,7 +86,7 @@ body {
   border-bottom: 1px solid lightgray;
 }
 
-.task-description {
+.task-text {
   font-size: 18px;
   padding: 10px;
   margin-bottom: 10px;
@@ -105,5 +105,12 @@ body {
 
 .completed {
   text-decoration: line-through;
+  color: rgb(125, 121, 121);
+}
+
+.task-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
   color: rgb(125, 121, 121);
 }
