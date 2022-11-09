@@ -1,6 +1,6 @@
-const dotBtn = document.querySelectorAll('.bi-three-dots-vertical');
-const trashBtn = document.querySelectorAll('.bi-trash');
-const updateTaskDescription = document.querySelectorAll('.task-description');
+const dotBtn = document.querySelectorAll('.task-btn');
+const trashBtn = document.querySelectorAll('.trashBtn');
+const updateTaskDescription = document.querySelectorAll('.task-text');
 
 dotBtn.forEach((btn) => {
   btn.addEventListener('click', () => {
@@ -30,7 +30,6 @@ trashBtn.forEach((btn) => {
 updateTaskDescription.forEach((input) => {
   input.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
-      e.preventDefault();
       const list = JSON.parse(localStorage.getItem('localListStorage'));
       const index = Array.from(updateTaskDescription).indexOf(input);
       list[index].description = input.value;
