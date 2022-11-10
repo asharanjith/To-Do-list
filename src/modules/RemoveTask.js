@@ -14,16 +14,23 @@ const updateIndex = (list) => {
     task.index = index + 1;
   });
 };
+const RemoveTask = (index) => {
+  const list = JSON.parse(localStorage.getItem('localListStorage'));
+  list.splice(index, 1);
+  updateIndex(list);
+  localStorage.setItem('localListStorage', JSON.stringify(list));
+  window.location.reload();
+};
 
 trashBtn.forEach((btn) => {
   btn.addEventListener('click', () => {
-    const list = JSON.parse(localStorage.getItem('localListStorage'));
+    // const list = JSON.parse(localStorage.getItem('localListStorage'));
     const index = Array.from(trashBtn).indexOf(btn);
-    const newList = list.filter((task) => task.index !== index + 1);
-    updateIndex(newList);
-    window.location.reload();
-    localStorage.setItem('localListStorage', JSON.stringify(newList));
-    btn.parentElement.remove();
+    // const newList = list.filter((task) => task.index !== index + 1);
+    // updateIndex(newList);
+    // window.location.reload();
+    // localStorage.setItem('localListStorage', JSON.stringify(newList));
+    RemoveTask(index);
   });
 });
 

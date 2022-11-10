@@ -1,4 +1,3 @@
-const listView = document.querySelector('.list');
 const listInputLine = (task) => {
   const listElement = document.createElement('li');
   listElement.classList.add('task-item');
@@ -21,9 +20,9 @@ const listInputLine = (task) => {
   listBtn2.innerHTML = '<i class="bi bi-trash"></i>';
   listElement.appendChild(listCheck);
   listElement.appendChild(listText);
-  listView.appendChild(listElement);
   listElement.appendChild(listBtn);
   listElement.appendChild(listBtn2);
+  return listElement;
 };
 
 export default listInputLine;
