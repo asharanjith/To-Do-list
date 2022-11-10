@@ -1,14 +1,16 @@
 # To-Do-list
 
-In this project, a simple to-do list is created using webpack.
+In this project, a simple to-do list is created using webpack, test platform as Jest.
 
 ##Live Demo
 [Click here](https://asharanjith.github.io/To-Do-list/dist/)
 
-##- Major languages: 
+##- Major languages and library: 
 - HTML
 - CSS
 - JavaScript
+- Webpack
+- Jest
 
 ### Prerequisites
 - Create a GitHub repository
